@@ -8,7 +8,17 @@
 </head>
 <body>
     {% include 'navbar.html' %}
+    <!--Flash message output -->
+    {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+        <li>{{message}}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
     {% block content %}
+
     {% endblock %}
 </body>
 </html>
