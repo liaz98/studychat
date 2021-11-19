@@ -16,13 +16,13 @@ This app is developed for students who want to study online and make peer meetin
 1. Clone the source code <br>
   `https://github.com/liaz98/studychat.git`
 
-2. Run the command to install packages:
+2. Run the command to install packages: <br>
   `pip install -r requirements.txt`
 
-3. Run the command to start the project:
+3. Run the command to start the project: <br>
   `python manage.py runserver`
 
-4. Project is developed at:
+4. Project is developed at: <br>
   `http://127.0.0.1:8000/`
 
 <h3 align="center">
